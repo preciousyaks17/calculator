@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <title>Simple Calculator</title>
+</head>
+
+<body>
+    <h1>Simple Calculator</h1>
+    <form class="calform" name="cal">
+        <input name="display" style="width:475px;
+      height:100px;text-align:center;background-color: #cc5500;"> </br>
+        <input type=button value="0" onClick="cal.display.value+='0'">
+        <input type=button value="1" onClick="cal.display.value+='1'">
+        <input type=button value=" 2 " onClick="cal.display.value+='2'">
+        <input type=button value="+" onClick="cal.display.value+='+'"> </br>
+        <input type=button value="3" onClick="cal.display.value+='3'">
+        <input type=button value="4 " onClick="cal.display.value+='4'">
+        <input type=button value="5 " onClick="cal.display.value+='5'">
+        <input type=button value="- " onClick="cal.display.value+='-'"> </br>
+        <input type=button value="6 " onClick="cal.display.value+='6'">
+        <input type=button value="7 " onClick="cal.display.value+='7'">
+        <input type=button value="8 " onClick="cal.display.value+='8'">
+        <input type=button value="x " onClick="cal.display.value+='*'"> </br>
+        <input type=button value="9 " onClick="cal.display.value+='9'">
+        <input type=button value="C" onClick="cal.display.value=''">
+        <input type=button value="=" onClick="cal.display.value=eval(cal.display.value)">
+        <input type=button value=" &#247;" onClick="cal.display.value+='/'">
+    </form>
+</body>
+
+</html>

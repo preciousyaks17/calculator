@@ -1,0 +1,33 @@
+*body {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+input {
+    width: 100px;
+    height: 50px;
+    font-size: 35px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #000;
+    color: #fff;
+    margin: 10px;
+}
+
+.calform {
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-right: 100px;
+    margin: 0;
+}
+
+
+/*form {
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}*/

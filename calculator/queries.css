@@ -1,0 +1,7 @@
+/*Below 1344px(smaller desktops)*/
+
+@media (max-width: 120rem) {
+    html {
+        align-items: center;
+    }
+}
